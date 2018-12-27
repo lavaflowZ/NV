@@ -20,7 +20,7 @@ namespace nv { namespace features {
 static unsigned int __main_thread()
 {
     while( 1 ) {
-        if( nv::windows::GetKey(0x06) ) {
+        if( nv::windows::GetKey(0x01) ) {
             nv::features::AimLock();
         }
     }
