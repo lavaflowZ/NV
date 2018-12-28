@@ -72,8 +72,8 @@ namespace nv { namespace features {
                 return;
             }
             fov = __GetBestFov(player, engine::GetViewAngle());
-            if( fov <= 3.0f ) {
-                engine::SetSensitivity(fov / 3.0f * engine::GetStartSensitivity());
+            if( fov <= 5.0f ) {
+                engine::SetSensitivity(fov / 5.0f * engine::GetStartSensitivity());
             } else {
                 engine::SetSensitivity(engine::GetStartSensitivity());
             }
